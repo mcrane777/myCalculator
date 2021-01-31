@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href='styles/calculator.css' rel='stylesheet' type='text/css'>
+        <link href='scripts/calculator.js' type='text/javascript'>
+
+        <title>Calculator Project</title>
+
+    </head>
+
+    <body>
+
+        <h1>My Calculator</h1>
+        
+        <div class='calcBody'>
+
+            <div class='barBody'>
+                <output>/</output>
+            </div>
+
+            <div class='calcButtons'>
+
+                <div class='lineOne'>
+                    <button type='button' textcontent='+'>+</button>
+                    <button type='button' textcontent='-'>-</button>
+                    <button type='button' textcontent='/'>/</button>
+                    <button type='button' textcontent='*'>*</button>
+                    <button type='button' textcontent='%'>%</button>
+                </div>
+
+                <div class='lineTwo'>
+                    <button type='button' textcontent='1'>1</button>
+                    <button type='button' textcontent='2'>2</button>
+                    <button type='button' textcontent='3'>3</button>
+                </div>
+
+                <div class='lineThree'>
+                    <button type='button' textcontent='4'>4</button>
+                    <button type='button' textcontent='5'>5</button>
+                    <button type='button' textcontent='6'>6</button>
+                </div>
+
+                <div class='lineFour'>
+                    <button type='button' textcontent='7'>7</button>
+                    <button type='button' textcontent='8'>8</button>
+                    <button type='button' textcontent='9'>9</button>
+                </div>
+
+                <div class='zeroButton'>
+                    <button type='button' textcontent='0'>0</button>
+                </div>
+
+
+                <div class='commandButtons'>
+                    <button type='button' textcontent='C'>C</button>
+                    <button type='button' textcontent='='>=</button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
