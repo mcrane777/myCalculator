@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+}
+.calcBody {
+    min-width: 175px;
+    max-width: 175px;
+    margin-left: auto;
+    margin-top: 175px;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: 2px dotted black;
+    padding: 10px 10px 0px 10px;
+    background-color: darkslateblue;
+    border-radius: 10px;
+}
+.barBody {
+    background-color: white;
+    text-align: center;
+
+
+}
+output {
+    display: inline-block;
+    border: 2px double black;
+    width: 175px;
+  }
+.calcButtons {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.lineOne {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: deeppink;
+    border-radius: 10px;
+}
+.lineTwo {
+    margin-left: auto;
+    margin-right: auto;
+     max-width: 100px;
+    padding-top: 5px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+
+}
+.commandButtons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: darkorange;
+    border-radius: 10px;
+
+}
